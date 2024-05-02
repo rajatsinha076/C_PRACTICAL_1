@@ -1,0 +1,16 @@
+C PRACTICAL 1 - PROGRAM 1
+
+//Program to read two integer and two floating point numbers.
+#include<stdio.h>
+int main(int argc, char const *argv[])
+
+{
+    int a1,a2;
+    float f1,f2;
+    printf("Enter Two Interger Number -> ");
+    scanf("%d%d",&a1,&a2);
+    printf("Enter Two Float Numbeer -> ");
+    scanf("%f%f",&f1,&f2);
+    printf("Two Intergers Are %d , %d And Float Numbers Are %.2f ,%f",a1,a2,f1,f2);
+    return 0;
+}
